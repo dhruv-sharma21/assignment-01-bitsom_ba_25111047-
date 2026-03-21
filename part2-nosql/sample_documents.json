@@ -1,0 +1,127 @@
+[
+  {
+    "_id": { "$oid": "64f1a2b3c4d5e6f7a8b9c001" },
+    "product_id": "ELEC-001",
+    "category": "Electronics",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "price": 124999,
+    "currency": "INR",
+    "stock": 45,
+    "specifications": {
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "processor": "Snapdragon 8 Gen 3",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "battery_mah": 5000,
+      "voltage": "5V / 3A (15W standard), 45W fast charging",
+      "camera_mp": {
+        "rear_main": 200,
+        "rear_ultra_wide": 12,
+        "rear_telephoto": 10,
+        "front": 12
+      },
+      "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3", "NFC", "USB-C 3.2"]
+    },
+    "warranty": {
+      "duration_months": 12,
+      "type": "Manufacturer Warranty",
+      "covers": ["Manufacturing defects", "Hardware failures"],
+      "excludes": ["Physical damage", "Water damage"]
+    },
+    "ratings": {
+      "average": 4.7,
+      "total_reviews": 3812
+    },
+    "tags": ["smartphone", "android", "5g", "flagship"],
+    "created_at": { "$date": "2024-01-15T10:00:00Z" },
+    "updated_at": { "$date": "2024-11-01T08:30:00Z" }
+  },
+
+  {
+    "_id": { "$oid": "64f1a2b3c4d5e6f7a8b9c002" },
+    "product_id": "CLTH-001",
+    "category": "Clothing",
+    "name": "Men's Slim Fit Formal Shirt",
+    "brand": "Arrow",
+    "price": 1299,
+    "currency": "INR",
+    "stock": 210,
+    "details": {
+      "fabric": "60% Cotton, 40% Polyester",
+      "fit": "Slim Fit",
+      "sleeve": "Full Sleeve",
+      "collar": "Spread Collar",
+      "care_instructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Tumble dry low",
+        "Iron on medium heat"
+      ],
+      "occasion": ["Formal", "Business Casual"]
+    },
+    "variants": [
+      { "color": "White", "sizes_available": ["S", "M", "L", "XL", "XXL"] },
+      { "color": "Light Blue", "sizes_available": ["S", "M", "L", "XL"] },
+      { "color": "Navy Stripe", "sizes_available": ["M", "L", "XL"] }
+    ],
+    "size_chart": {
+      "S":   { "chest_cm": 91,  "shoulder_cm": 42 },
+      "M":   { "chest_cm": 96,  "shoulder_cm": 44 },
+      "L":   { "chest_cm": 101, "shoulder_cm": 46 },
+      "XL":  { "chest_cm": 106, "shoulder_cm": 48 },
+      "XXL": { "chest_cm": 111, "shoulder_cm": 50 }
+    },
+    "ratings": {
+      "average": 4.3,
+      "total_reviews": 925
+    },
+    "tags": ["formal", "men", "shirt", "office-wear"],
+    "created_at": { "$date": "2024-03-10T09:00:00Z" },
+    "updated_at": { "$date": "2024-10-20T11:15:00Z" }
+  },
+
+  {
+    "_id": { "$oid": "64f1a2b3c4d5e6f7a8b9c003" },
+    "product_id": "GROC-001",
+    "category": "Groceries",
+    "name": "Amul Gold Full Cream Milk",
+    "brand": "Amul",
+    "price": 68,
+    "currency": "INR",
+    "stock": 500,
+    "packaging": {
+      "type": "Tetra Pack",
+      "volume_ml": 1000,
+      "units_per_case": 12
+    },
+    "dates": {
+      "manufactured": { "$date": "2024-11-20T00:00:00Z" },
+      "expiry":        { "$date": "2024-12-20T00:00:00Z" },
+      "best_before_days": 30
+    },
+    "nutritional_info": {
+      "serving_size_ml": 100,
+      "energy_kcal": 62,
+      "protein_g": 3.2,
+      "carbohydrates_g": 4.8,
+      "sugar_g": 4.8,
+      "fat_g": 3.5,
+      "saturated_fat_g": 2.1,
+      "calcium_mg": 120,
+      "vitamins": ["Vitamin A", "Vitamin D"]
+    },
+    "storage_instructions": "Keep refrigerated at 4°C or below. Consume within 2 days of opening.",
+    "certifications": ["FSSAI", "ISO 22000", "BIS"],
+    "fssai_license": "10013022002253",
+    "allergens": ["Milk and milk products"],
+    "ratings": {
+      "average": 4.6,
+      "total_reviews": 7241
+    },
+    "tags": ["dairy", "milk", "fresh", "daily-essentials"],
+    "created_at": { "$date": "2024-11-20T05:00:00Z" },
+    "updated_at": { "$date": "2024-11-20T05:00:00Z" }
+  }
+]
+
